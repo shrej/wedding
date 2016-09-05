@@ -1,37 +1,27 @@
 <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
-            <div class="row">
-                {% for member in site.people %}
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
-                        <h4>{{ member.name }}</h4>
-                        <p class="text-muted">{{ member.position }}</p>
-                        <ul class="list-inline social-buttons">
-                            {% for network in member.social %}
-                            <li>
-                                <a href="{{ network.url }}">
-                                    <i class="fa fa-{{ network.title }}"></i>
-                                </a>
-                            </li>
-                            {% endfor %}
-
-                        </ul>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-                </div>
-            </div>
+<section id="about" class="bg-light-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Meet Anya and Shrey</h2>
+        <h3 class="section-subheading text-muted">Know more about the bride and the groom</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="team-member">
+          <img src="https://nugkqa-bn1306.files.1drv.com/y3mEaVReR8di5wPN02vClJytmoF547Lc0ErlMokMPouGoj94H4iLnEYrHrTJmNbkuvKxCtQdDreAYsOCjidymOufoe8YglRbkWK3Q28a3xxQO4AANVPnutcsel0VcfISOt7X2cx-VJpOBUwnBKOgyey4FBWJIRquOOh64REvcsT24k?width=800&height=600&cropmode=none" class="img-responsive img-circle" alt="">
+          <h4>Anya</h4>
+          <p class="text-muted">Anna Lvovskaia (Anya) was born in Moscow, Russia. She likes horse riding, painting, and music</p>
         </div>
-    </section>
+      </div>
+      <div class="col-lg-6">
+        <div class="team-member">
+          <img src="https://n0iqca-bn1306.files.1drv.com/y3mhVUtb8s-dCC1jJ0qIGY_SK7CAiyR5gODAT1C1XTs-hGxBjug7X-2a39kprGnLQ5fto6ctOGkKVoANf4k0nLrnh2HU_jfsxOGKPTnqNK7u0Q0cI9zDDu4ALZ28wsX9kBvHx2cPl9PRDqJB4WC1--_IVZ9mVML1GZHmlERfc-dN38?width=800&height=600&cropmode=none" class="img-responsive img-circle" alt="">
+          <h4>Shrey</h4>
+          <p class="text-muted">Shreyans Jain (Babbu) was born in Ujjain, India. He likes to fly kites and play cricket.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

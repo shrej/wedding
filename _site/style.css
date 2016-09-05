@@ -306,6 +306,13 @@ header .intro-text .intro-heading {
     line-height: 50px;
 }
 
+
+@media(max-width:768px) {
+  header {
+    margin-top: 200px;
+  }
+}
+
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 350px;
@@ -886,6 +893,9 @@ body {
 }
 #photos #slider-thumbs {
   margin-top: 100px;
+}
+.photos-section {
+  margin-top: 20px;
 }
 
 .hide-bullets {
