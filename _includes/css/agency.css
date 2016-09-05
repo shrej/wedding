@@ -869,3 +869,14 @@ body {
   font-size: 20px;
   margin-top: 20px;
 }
+#venue .resort-image {
+  height: 100px;
+  margin-bottom: 60px;
+}
+
+#photos .container {
+  margin-top: 40px;
+}
+#photos #slider-thumbs {
+  margin-top: 100px;
+}
