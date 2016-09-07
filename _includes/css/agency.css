@@ -444,7 +444,7 @@ section h3.section-subheading {
     list-style: none;
 }
 
-.timeline:before {
+/*.timeline:before {
     content: "";
     position: absolute;
     top: 0;
@@ -453,7 +453,7 @@ section h3.section-subheading {
     width: 2px;
     margin-left: -1.5px;
     background-color: #f1f1f1;
-}
+}*/
 
 .timeline>li {
     position: relative;
@@ -463,7 +463,7 @@ section h3.section-subheading {
 
 .timeline>li:before,
 .timeline>li:after {
-    content: " ";
+    content: "";
     display: table;
 }
 
