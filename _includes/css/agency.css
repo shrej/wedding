@@ -305,6 +305,12 @@ header .intro-text .intro-heading {
     margin-top: 60px;
     height: 600px;
   }
+  .intro-text {
+    margin-top: 170px;
+  }
+  #contact {
+    margin-top: 40px;
+  }
 }
 
 @media(min-width:768px) {

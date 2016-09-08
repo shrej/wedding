@@ -1,53 +1,69 @@
- <!-- jQuery Version 1.11.0 -->
-    <script src="{{ "/js/jquery-1.11.0.js" | prepend: site.baseurl }}"></script>
+<!-- jQuery Version 1.11.0 -->
+<script src="{{ " /js/jquery-1.11.0.js " | prepend: site.baseurl }}"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="{{ " /js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="{{ "/js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/classie.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/cbpAnimatedHeader.js" | prepend: site.baseurl }}"></script>
+<!-- Plugin JavaScript -->
+<script src="{{ " /js/jquery.easing.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ " /js/classie.js " | prepend: site.baseurl }}"></script>
+<script src="{{ " /js/cbpAnimatedHeader.js " | prepend: site.baseurl }}"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="{{ "/js/jqBootstrapValidation.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/contact_me.js" | prepend: site.baseurl }}"></script>
+<!-- Contact Form JavaScript -->
+<script src="{{ " /js/jqBootstrapValidation.js " | prepend: site.baseurl }}"></script>
+<script src="{{ " /js/contact_me.js " | prepend: site.baseurl }}"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
-    <script>
-    jQuery(document).ready(function($) {
+<!-- Custom Theme JavaScript -->
+<script src="{{ " /js/agency.js " | prepend: site.baseurl }}"></script>
+<script>
+  jQuery(document).ready(function($) {
 
-      $('#myCarousel').carousel({
-              interval: 5000
-      });
+    $('#myCarousel').carousel({
+      interval: 5000
+    });
 
-      //Handles the carousel thumbnails
-      $('[id^=carousel-selector-]').click(function () {
+    //Handles the carousel thumbnails
+    $('[id^=carousel-selector-]').click(function() {
       var id_selector = $(this).attr("id");
       try {
-          var id = /-(\d+)$/.exec(id_selector)[1];
-          console.log(id_selector, id);
-          jQuery('#myCarousel').carousel(parseInt(id));
+        var id = /-(\d+)$/.exec(id_selector)[1];
+        console.log(id_selector, id);
+        jQuery('#myCarousel').carousel(parseInt(id));
       } catch (e) {
-          console.log('Regex failed!', e);
+        console.log('Regex failed!', e);
       }
+    });
+    // When the carousel slides, auto update the text
+    $('#myCarousel').on('slid.bs.carousel', function(e) {
+      var id = $('.item.active').data('slide-number');
+      $('#carousel-text').html($('#slide-content-' + id).html());
+    });
+    $('.little-anya').mouseover(function() {
+      $(this).find('img').attr('src', '/img/anya_old.jpg')
+    }).mouseout(function() {
+      $(this).find('img').attr('src', '/img/anya_child.jpg')
+    })
+
+    $('.shrey').mouseover(function() {
+      $(this).find('img').attr('src', '/img/shrey_old.jpg')
+    }).mouseout(function() {
+      $(this).find('img').attr('src', '/img/shrey_child.jpg')
+    })
   });
-      // When the carousel slides, auto update the text
-      $('#myCarousel').on('slid.bs.carousel', function (e) {
-               var id = $('.item.active').data('slide-number');
-              $('#carousel-text').html($('#slide-content-'+id).html());
-      });
-});
-    </script>
-  // Google Analytics  
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+</script>
+<script>
+  (function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
   ga('create', 'UA-83806220-1', 'auto');
   ga('send', 'pageview');
-
 </script>

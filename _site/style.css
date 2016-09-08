@@ -22,7 +22,7 @@ body {
 }
 
 .text-primary {
-    color: #b29600;
+    color: #f39c12;
 }
 
 p {
@@ -43,14 +43,14 @@ a.active {
 }
 
 a {
-    color: #b29600;
+    color: #f39c12;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #b29600;
+    color: #f39c12;
 }
 
 h1,
@@ -77,12 +77,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #b29600;
+    border-color: #f39c12;
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #b29600;
+    background-color: #f39c12;
 }
 
 .btn-primary:hover,
@@ -90,9 +90,9 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #b29600;
+    border-color: #f39c12;
     color: #fff;
-    background-color: #b29600;
+    background-color: #f39c12;
 }
 
 .btn-primary:active,
@@ -116,25 +116,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #b29600;
-    background-color: #b29600;
+    border-color: #f39c12;
+    background-color: #f39c12;
 }
 
 .btn-primary .badge {
-    color: #b29600;
+    color: #f39c12;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #b29600;
+    border-color: #f39c12;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #b29600;
+    background-color: #f39c12;
 }
 
 .btn-xl:hover,
@@ -142,9 +142,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #b29600;
+    border-color: #f39c12;
     color: #fff;
-    background-color: #b29600;
+    background-color: #f39c12;
 }
 
 .btn-xl:active,
@@ -168,12 +168,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #b29600;
-    background-color: #b29600;
+    border-color: #f39c12;
+    background-color: #f39c12;
 }
 
 .btn-xl .badge {
-    color: #b29600;
+    color: #f39c12;
     background-color: #fff;
 }
 
@@ -184,14 +184,14 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #b29600;
+    color: #f39c12;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #b29600;
+    color: #f39c12;
 }
 
 .navbar-default .navbar-collapse {
@@ -199,8 +199,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #b29600;
-    background-color: #b29600;
+    border-color: #f39c12;
+    background-color: #f39c12;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -209,7 +209,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #b29600;
+    background-color: #f39c12;
 }
 
 .navbar-default .nav li a {
@@ -223,19 +223,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #b29600;
+    color: #f39c12;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #b29600;
+    background-color: #f39c12;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #b29600;
+    background-color: #f39c12;
 }
 
 @media(min-width:768px) {
@@ -311,6 +311,12 @@ header .intro-text .intro-heading {
   header {
     margin-top: 60px;
     height: 600px;
+  }
+  .intro-text {
+    margin-top: 170px;
+  }
+  #contact {
+    margin-top: 40px;
   }
 }
 
@@ -389,7 +395,7 @@ section h3.section-subheading {
     -moz-transition: all ease .5s;
     transition: all ease .5s;
     background: rgba(254,209,54,.9); /* Fallback when no plugin support */
-    background: rgba(178,150,0, .9);
+    background: rgba(243,156,18, .9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -512,7 +518,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #b29600;
+    background-color: #f39c12;
 }
 
 .timeline>li .timeline-image h4 {
@@ -699,7 +705,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #b29600;
+    border-color: #f39c12;
     box-shadow: none;
 }
 
@@ -777,7 +783,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #b29600;
+    background-color: #f39c12;
 }
 
 .btn:focus,
@@ -860,12 +866,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #b29600;
+    background: #f39c12;
 }
 
 ::selection {
     text-shadow: none;
-    background: #b29600;
+    background: #f39c12;
 }
 
 img::selection {
@@ -877,7 +883,7 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #b29600;
+    webkit-tap-highlight-color: #f39c12;
 }
 
 #venue p {
