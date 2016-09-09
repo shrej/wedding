@@ -2,9 +2,9 @@ url: http://shreyanya.com
 baseurl:
 
 # Site settings
-title: Shrey weds Anya
-email: your-email@domain.com
-description: "This is a website for the upcoming wedding of Shrey and Anya on 12-12-2016."
+title: Shreyans weds Anya
+email: contact@shreyanya.com
+description: "This is a webpage with information on the upcoming wedding of Shreyans and Anna on 12-12-2016 in Ujjain, India"
 
 # Build settings
 markdown: kramdown
