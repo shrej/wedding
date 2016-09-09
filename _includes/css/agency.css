@@ -3,7 +3,7 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
- 
+
 html {
     -webkit-font-smoothing: antialiased;
 }
@@ -289,7 +289,7 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.tertiary }};
-    font-size: 22px;
+    font-size: 35px;
     font-style: italic;
     line-height: 22px;
 }
