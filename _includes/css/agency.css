@@ -907,3 +907,9 @@ body {
 .photos-section {
   margin-top: 20px;
 }
+
+.brand-logo {
+  float: left;
+  height: 60px;
+  width: 60px;
+}
