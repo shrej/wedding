@@ -50,10 +50,12 @@
       $(this).find('img').attr('src', '/img/shrey_child.jpg')
     });
 
-    $('contact-btn').on('submit', function() {
-      var personName = $('.person-name').text();
-      $('.thanks-message').text("Thanks" + personName + "!");
-      $('thanks-note').removeClass("hidden");
+    $(function() {
+        $('form').submit(function() {
+          var personName = $('.person-name').val();
+          alert("Thanks " + personName+ "! We will be in touch soon :)");
+          return true;
+        });
     });
   });
 </script>
