@@ -325,7 +325,6 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-      /*  font-family: {{ site.data.template.font.tertiary }};*/
         font-size: 60px;
         font-style: italic;
         line-height: 40px;
