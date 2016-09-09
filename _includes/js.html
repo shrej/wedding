@@ -48,7 +48,13 @@
       $(this).find('img').attr('src', '/img/shrey_old.jpg')
     }).mouseout(function() {
       $(this).find('img').attr('src', '/img/shrey_child.jpg')
-    })
+    });
+
+    $('contact-btn').on('submit', function() {
+      var personName = $('.person-name').text();
+      $('.thanks-message').text("Thanks" + personName + "!");
+      $('thanks-note').removeClass("hidden");
+    });
   });
 </script>
 <script>
