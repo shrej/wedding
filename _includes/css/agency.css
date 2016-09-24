@@ -269,6 +269,10 @@ fieldset[disabled] .btn-xl.active {
     footer ul.quicklinks {
         font-size: 18px !important;
     }
+    footer img.brand-logo {
+        height: 80px !important;
+        width: 80px!important;
+    }
 }
 
 header {
@@ -304,6 +308,11 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+}
+
+footer img.brand-logo {
+    height: 75px;
+    width: 75px;
 }
 
 
