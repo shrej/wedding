@@ -7,7 +7,7 @@ color:
 
 # Font Families
 font:
-  primary: '"Lato", "Helvetica Neue",Helvetica,Arial,sans-serif'
+  primary: '"Poiret One", "Helvetica Neue",Helvetica,Arial,sans-serif'
   secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
   tertiary: '"Indie Flower", cursive'
-  quaternary: '"Poiret One", cursive'
+  quaternary: '"Tangerine", cursive'
