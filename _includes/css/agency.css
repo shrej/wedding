@@ -753,7 +753,8 @@ footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
     font-family: {{ site.data.template.font.primary }};
-    line-height: 40px;
+    line-height: 60px;
+    font-size: 20px;
 }
 
 footer ul.quicklinks {
@@ -761,7 +762,11 @@ footer ul.quicklinks {
     text-transform: uppercase;
     text-transform: none;
     font-family: {{ site.data.template.font.primary }};
-    line-height: 40px;
+    line-height: 60px;
+}
+
+footer ul.quicklinks li span.fa-heart {
+  color: #ff0000;
 }
 
 ul.social-buttons {
@@ -902,7 +907,7 @@ body {
   margin-top: 40px;
 }
 #photos #slider-thumbs {
-  margin-top: 100px;
+  margin-top: -23px;
 }
 .photos-section {
   margin-top: 20px;
