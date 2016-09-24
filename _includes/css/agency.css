@@ -267,7 +267,7 @@ fieldset[disabled] .btn-xl.active {
         font-size: 1.5em;
     }
     footer ul.quicklinks {
-        font-size: 1.5em;
+        font-size: 18px !important;
     }
 }
 
