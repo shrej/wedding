@@ -12,6 +12,7 @@ body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #{{ site.data.template.color.secondary-dark }};
+    color: #{{ site.data.template.color.white }};
 }
 
 .text-muted {
