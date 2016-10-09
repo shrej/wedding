@@ -269,6 +269,7 @@ fieldset[disabled] .btn-xl.active {
     }
     footer ul.quicklinks {
         font-size: 18px !important;
+        color: #f39c12;
     }
     footer img.brand-logo {
         height: 80px !important;
@@ -278,7 +279,7 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #f39c12;
+    color: #fff;
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/shreyanya.jpg');
     background-position: center center;
