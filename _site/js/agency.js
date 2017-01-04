@@ -35,3 +35,35 @@ $('div.modal').on('show.bs.modal', function() {
 		}
 	}
 });
+
+$('#mehandi').lightGallery({
+    thumbnail:true
+});
+
+$('#sangeet').lightGallery({
+    thumbnail:true
+});
+
+$('#baraat').lightGallery({
+    thumbnail:true
+});
+
+$('#phere').lightGallery({
+    thumbnail:true
+});
+
+$('#reception').lightGallery({
+    thumbnail:true
+});
+
+$('#bhaat').lightGallery({
+    thumbnail:true
+});
+
+$('#kerela').lightGallery({
+    thumbnail:true
+});
+
+$('#reception-germany').lightGallery({
+    thumbnail:true
+});

@@ -281,7 +281,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/shreyanya.jpg');
+    background-image: url('{{ site.baseurl }}/img/wedding/cover.JPG');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -930,6 +930,22 @@ body {
 }
 .photos-section {
   margin-top: 20px;
+}
+
+.thumb {
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+}
+
+.thumb-long {
+  width: 150px;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.spacer-above {
+  margin-top: 100px;
 }
 
 .brand-logo {
