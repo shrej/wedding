@@ -4,7 +4,7 @@ baseurl:
 # Site settings
 title: Shreyans weds Anya
 email: contact@shreyanya.com
-description: "This is a webpage with information on the upcoming wedding of Shreyans and Anna on 12-12-2016 in Ujjain, India"
+description: "This webpage documents the wedding of Shrey and Anya , that took place on 12-12-16 at Ujjain, India."
 
 # Build settings
 markdown: kramdown
